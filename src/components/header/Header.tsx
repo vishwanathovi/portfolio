@@ -18,12 +18,12 @@ export const Header = ({ children }: IHeaderProps) => (
           to="/"
           className={s.header__logo}
         >
-          <StarterLogo className={s.header__logoSvg} />
+          {/* <StarterLogo className={s.header__logoSvg} /> */}
         </Link>
 
-        <div className={s.header__navigation}>
+        {/* <div className={s.header__navigation}>
           {children}
-        </div>
+        </div> */}
       </div>
     </div>
   </header>

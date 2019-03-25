@@ -29,13 +29,8 @@ export default ({ children }: IAppLayoutProps) => (
 
     <Header>
       <HeaderLink
-        name="about"
-        to="/about"
-      />
-
-      <HeaderLink
         name="github"
-        to="https://github.com/ueno-llc"
+        to="https://github.com/vishwanathovi"
         icon={<Github />}
       />
     </Header>
@@ -45,7 +40,6 @@ export default ({ children }: IAppLayoutProps) => (
     <Footer
       logo={<Logo />}
       social={[
-        { icon: <Dribbble />, to: 'https://dribbble.com/ueno' },
         { icon: <Twitter />, to: 'https://twitter.com/uenodotco' },
         { icon: <Github />, to: 'https://github.com/ueno-llc' },
         { icon: <Instagram />, to: 'https://www.instagram.com/uenodotco' },

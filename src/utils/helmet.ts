@@ -1,12 +1,12 @@
-const title = 'Create Ueno App';
-const description = 'The easiest and fastest way to create new projects.';
+const title = 'Vishwanatha H M';
+const description = 'Freelance developer ';
 
 const favicon = require('assets/images/favicon.png');
 const share = require('assets/images/share.png');
 
 export const helmet = {
   title,
-  titleTemplate: '%s - Ueno',
+  titleTemplate: '%s',
   htmlAttributes: { lang: 'en' },
   meta: [
     { name: 'description', content: description },

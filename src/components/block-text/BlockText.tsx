@@ -10,7 +10,7 @@ interface IBlockTextProps {
   description: React.ReactNode;
 }
 
-export const BlockText = ({ heading, description }: IBlockTextProps) => (
+export const BlockText = ({ heading, description,  }: IBlockTextProps) => (
   <Container>
     <div className={s.block}>
       <Row>

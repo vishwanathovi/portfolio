@@ -4,19 +4,26 @@ import Helmet from 'react-helmet';
 import { Intro } from 'components/intro/Intro';
 import { Highlight } from 'components/intro/Highlight';
 import { BlockText } from 'components/block-text/BlockText';
+import { Button } from 'components/button/Button';
+import { FooterSpaceFiller } from 'components/footer-filler/FooterSpaceFiller';
+
 
 export default () => (
   <>
-    <Helmet title="Home" />
+    <Helmet title="Vishwanath HM" />
+
 
     <Intro>
-      Opinionated starter by Ueno, using opinionated dependencies 🤪, <Highlight>TypeScript</Highlight>,&nbsp;
-      <Highlight>SCSS</Highlight>, <Highlight>CSS Modules</Highlight>, <Highlight>React Hooks</Highlight>,&nbsp;
-      <Highlight>root resolver</Highlight>, <Highlight>code splitting</Highlight> and a lot of love.
+      Hello, 
+      I am Vishwa 👋, <br/>
+      A <Highlight>Frontend developer</Highlight> based out of Bangalore, India. <br/>
+      I Enjoy coding in <Highlight>Javascript</Highlight> &  most of the time i work on <Highlight>React</Highlight> and <Highlight>NodeJS</Highlight> projects.<br/><br/>
+      Currently, I am open for Freelance projects/ Remote job opportunities. <br/><br/>
+      <Button>Say Hi!</Button>
     </Intro>
 
     <BlockText
-      heading="Who we are"
+      heading="Projects"
       description={(
         <>
           Ueno is a full-service agency, busy designing and building
@@ -25,5 +32,6 @@ export default () => (
         </>
       )}
     />
+    <FooterSpaceFiller />
   </>
 );
