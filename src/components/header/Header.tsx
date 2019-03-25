@@ -3,6 +3,7 @@ import * as React from 'react';
 import { Link } from 'components/link/Link';
 
 import StarterLogo from 'assets/svg/starter-logo.svg';
+const siteLogo = require('assets/images/vishwa.png');
 
 import s from './Header.scss';
 
@@ -18,12 +19,12 @@ export const Header = ({ children }: IHeaderProps) => (
           to="/"
           className={s.header__logo}
         >
-          {/* <StarterLogo className={s.header__logoSvg} /> */}
+        <img className={s.header__logo_img} src={siteLogo} alt="site logo"/>
         </Link>
 
-        {/* <div className={s.header__navigation}>
+        <div className={s.header__navigation}>
           {children}
-        </div> */}
+        </div>
       </div>
     </div>
   </header>

@@ -1,6 +1,7 @@
 import * as React from 'react';
 
 import { Container } from 'components/container/Container';
+const siteLogo = require('assets/images/vishwa.png');
 
 import s from './Footer.scss';
 
@@ -19,11 +20,10 @@ export const Footer = ({ logo, social }: IFooterProps) => (
     <Container>
       <div className={s.footer__content}>
         <a
-          href="https://ueno.co"
-          target="_blank"
+          href="/"
           rel="noopener noreferrer"
         >
-          {logo}
+        <img className={s.footer__logo_img} src={siteLogo} alt="site logo"/>
         </a>
 
         <ul className={s.footer__list}>

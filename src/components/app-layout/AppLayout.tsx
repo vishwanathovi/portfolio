@@ -2,7 +2,6 @@ import * as React from 'react';
 import Helmet from 'react-helmet';
 
 import Logo from 'assets/svg/ueno-logo.svg';
-import Dribbble from 'assets/svg/dribbble.svg';
 import Twitter from 'assets/svg/twitter.svg';
 import Github from 'assets/svg/github.svg';
 import Instagram from 'assets/svg/instagram.svg';
